@@ -1,5 +1,29 @@
 # Acadia-Hardware
 
+## 🌟 Welcome to Acadia-Hardware - Open Source Hardware Platform
+
+**Empowering Innovation Through Shared Knowledge**
+
+This repository contains the complete design schematics, Bill of Materials (BOM), and documentation for our Acadia-Hardware platform - a cutting-edge Raspberry Pi CM4/CM5 based hardware solution. We've open-sourced these designs to democratize access to high-quality hardware development, fostering a community of innovators who can build upon our work to create amazing products.
+
+### 🎯 Our Mission
+At Soccentric, we believe in the power of open collaboration. By sharing our hardware platforms, we aim to:
+- **Accelerate Innovation**: Provide robust, tested hardware templates that developers can use as starting points
+- **Reduce Development Costs**: Eliminate the need to reinvent the wheel for common hardware architectures
+- **Build Community**: Create a collaborative ecosystem where knowledge and improvements are shared freely
+- **Enable Customization**: Allow businesses and individuals to adapt these designs for their specific needs
+
+### 📋 What's Included
+- **Complete Schematics**: Full electrical schematics in industry-standard formats
+- **Bill of Materials (BOM)**: Comprehensive component lists with sourcing information
+- **PCB Layout Files**: Gerber files and PCB design files for manufacturing
+- **Design Documentation**: Detailed design decisions, trade-offs, and implementation notes
+- **Assembly Guides**: Step-by-step instructions for building and testing
+- **Firmware Examples**: Sample code and configurations to get you started
+
+**Author:** Sandesh Ghimire  
+**©** Sandesh@soccentric.com
+
 ## Overview
 Raspberry Pi CM4/CM5 based hardware platform designed for embedded computing applications. These compact System-on-Modules (SoMs) integrate powerful processing capabilities with extensive I/O options, making them ideal for industrial, IoT, and edge computing solutions.
 
@@ -56,3 +80,73 @@ All platforms have:
 - **Development Tools**: Comprehensive SDK and development kits
 - **Community Support**: Large developer community and extensive documentation
 - **Long-term Availability**: Extended product lifecycle support
+
+## 🚀 Getting Started
+
+### Prerequisites
+- PCB fabrication capabilities or access to a PCB manufacturer
+- Basic electronics assembly tools and equipment
+- Raspberry Pi CM4/CM5 module
+- Access to components listed in the BOM
+
+### Quick Start
+1. **Review the Schematics**: Start with the main board schematic in the `schematics/` directory
+2. **Check the BOM**: Verify component availability and order parts from `bom/bom.csv`
+3. **Fabricate PCB**: Use the Gerber files in `pcb/` for manufacturing
+4. **Assemble**: Follow the assembly guide in `docs/assembly.md`
+5. **Test**: Use the test procedures in `docs/testing.md`
+
+### Development Environment
+- **OS**: Raspberry Pi OS or Ubuntu Linux
+- **Tools**: KiCad for schematic review, Python for automation scripts
+- **SDK**: Raspberry Pi official tools and documentation
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### Ways to Contribute
+- **Bug Reports**: Found an issue? Let us know in the Issues section
+- **Feature Requests**: Have ideas for improvements? Share them!
+- **Pull Requests**: Submit your enhancements directly
+- **Documentation**: Help improve guides and documentation
+- **Testing**: Test designs and share your results
+
+### Development Workflow
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+### Guidelines
+- Follow the existing code style and naming conventions
+- Update documentation for any new features
+- Test your changes thoroughly
+- Respect the license terms
+
+## 📄 License
+
+This project is licensed under the CERN Open Hardware Licence Version 2 - Permissive. See the [LICENSE](LICENSE) file for details.
+
+The CERN OHL v2 - Permissive allows you to:
+- Use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+- Manufacture and distribute hardware based on these designs
+- Create derivative works
+
+## 📞 Support & Community
+
+- **Issues**: [GitHub Issues](https://github.com/soccentric/Acadia-Hardware/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/soccentric/Acadia-Hardware/discussions)
+- **Documentation**: [Wiki](https://github.com/soccentric/Acadia-Hardware/wiki)
+- **Email**: For business inquiries, contact hardware@soccentric.com
+
+## 🙏 Acknowledgments
+
+- Raspberry Pi Foundation for the incredible CM4/CM5 modules
+- Our amazing community of contributors and users
+- The open source hardware movement for inspiring this initiative
+
+---
+
+**Built with ❤️ by Soccentric - Empowering Hardware Innovation**
