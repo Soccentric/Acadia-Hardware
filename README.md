@@ -6,6 +6,8 @@
 
 This repository contains the complete design schematics, Bill of Materials (BOM), and documentation for our Acadia-Hardware platform - a cutting-edge Raspberry Pi CM4/CM5 based hardware solution. We've open-sourced these designs to democratize access to high-quality hardware development, fostering a community of innovators who can build upon our work to create amazing products.
 
+![Acadia-Hardware Platform](Acadia-Hardware.jpg)
+
 ### 🎯 Our Mission
 At Soccentric, we believe in the power of open collaboration. By sharing our hardware platforms, we aim to:
 - **Accelerate Innovation**: Provide robust, tested hardware templates that developers can use as starting points
